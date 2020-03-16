@@ -1,0 +1,1170 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="810efa86-20bd-4f71-a3f9-c34450e50ad8" name="Default Changelist" comment="test Audit Trail refacto&#10;- otherTestData file">
+      <change afterPath="$PROJECT_DIR$/src/main/java/UIComponents/BaseComponent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/UIComponents/ContentButton.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/UIComponents/ContentComponents/AllContentComponents.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/UIComponents/ContentComponents/ContentReadFieldPrimitiveByLabel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/UIComponents/ContentComponents/ContentWriteFieldPrimitiveByLabel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/UIComponents/ContentComponents/ReadFieldBooleanByLabel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/UIComponents/ContentComponents/ReadFieldDateByLabel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/UIComponents/ContentComponents/ReadFieldFilesByLabel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/UIComponents/ContentComponents/ReadFieldReferenceByLabel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/UIComponents/HeaderComponent/HeaderLinks.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/UIComponents/HeaderComponent/ModuleMenuByLabel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/UIComponents/HeaderComponent/MyFavoritesMenu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/UIComponents/HeaderComponent/NotificationsMenu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/UIComponents/HeaderComponent/ProfilMenu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/UIComponents/HeaderComponent/RecentlyAccessedMenu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/UIComponents/HeaderComponent/ReportMenu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/UIComponents/HeaderComponent/SimpleSearchComponent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/UIComponents/HeaderComponent/TechnicalMenu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/UIComponents/SubHeaderComponent/SubHeaderAction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/UIComponents/SubHeaderComponent/SubHeaderBurgerMenu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/UIComponents/SubHeaderComponent/SubHeaderLinks.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/UIComponents/SubHeaderComponent/SubHeaderTitle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/UIComponents/WebElementByIdRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/UIComponents/WebElementByLocator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/UIComponents/componentField.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/UIPages/GenericPage/ContentPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/UIPages/GenericPage/DashbordPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/UIPages/GenericPage/ReportPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/UIPages/GenericPage/SearchMaskPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/UIPages/InstanceOfGenericPage/ContractPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/UIPages/SpecificPage/AbsenceManagementPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/UIPages/SpecificPage/ListOfGeneralAlertsPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/UIPages/SpecificPage/ListOfReportsList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/UIPages/SpecificPage/MyBinPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/UIPages/SpecificPage/MyNoficationsPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/UIPages/SpecificPage/MySubscriptionsPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/UIPages/SpecificPage/ResultForSimpleSearchPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/UIPages/SpecificPage/SearchAndReplacePage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/UIPages/SpecificPopup/ConfirmPopup.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/UIPages/SpecificPopup/MyPreferencesPopup.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/UiTesting/Basetest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/UiTesting/testUI_demo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Services/BaseService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Services/BaseService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/UIComponents/Grid.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/UIComponents/Header.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/UIComponents/HeaderComponent.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/UIComponents/workflow.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/UIPages/BasePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/UIPages/BasePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/UIPages/DashboardPage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/UIPages/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/UIPages/SpecificPage/LoginPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/UIPages/ReadContentPage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/UIPages/WriteContentPage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/EndToEndTesting/_008_E2E_ModifyContrat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/EndToEndTesting/_008_E2E_ModifyContrat.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ServicesTesting/_009_AuditTrail.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ServicesTesting/_009_AuditTrail.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/UiTesting/Poc_test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/UiTesting/Poc_test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Selenium/SeleniumDriver.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Selenium/SeleniumEvent.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Services/AlertServices/GetAlertSubscribers.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Services/AlertServices/GetGeneralAlert.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Services/AlertServices/GetUserSubscriptions.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Services/AlertServices/UpdateAlertSubscribers.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Services/AuditTrailServices/AllServicesClasses/GetActorsList.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Services/AuditTrailServices/AllServicesClasses/GetContentTypeList.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Services/AuditTrailServices/AllServicesClasses/GetEventsList.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Services/AuditTrailServices/AllServicesClasses/GetLogList.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Services/AuditTrailServices/AllServicesClasses/LaunchAuditTrailSearch.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Services/AuditTrailServices/AuditTrail.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Services/BaseService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Services/BaseServiceV2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Services/ContentServices/CreateContent.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Services/ContentServices/DeleteContent.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Services/ContentServices/GetContent.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Services/ContentServices/GetFilesOfContent.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Services/ContentServices/ModifyContent.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Services/ContentServices/ModifyContentOptions.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Services/ContentServices/RetrieveContentOptions.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Services/ContentServices/SaveNewContent.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Services/GridsServices/GetDqlSearchGadget.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Services/GridsServices/GetNotificationsGrid.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Services/GridsServices/GetSearchResultSection.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Services/GridsServices/GetTableLayout.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Services/HomeServices/GetApplicationModules.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Services/HomeServices/GetCountNotifications.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Services/HomeServices/GetDashboardGadgets.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Services/HomeServices/GetSimpleSearchResult.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Services/HomeServices/GetTimeUnits.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Services/HomeServices/GetUserPreference.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Services/HomeServices/ModifyUserPreferences.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Services/ImportAndExportGadgetsServices/GetExportFormat.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Services/ImportAndExportGadgetsServices/GetExportFormatParameterValues.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Services/ImportAndExportGadgetsServices/GetListExportFormats.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Services/ImportAndExportGadgetsServices/StartExport.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Services/ImportAndExportGadgetsServices/StartImport.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Services/SearchAndReplaceServices/ActionReplace.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Services/SearchAndReplaceServices/GetContentTypeList.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Services/SearchAndReplaceServices/GetFieldReferenceValues.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Services/SearchAndReplaceServices/GetFieldType.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Services/SearchAndReplaceServices/GetFieldsByContentType.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Services/SearchAndReplaceServices/GetFieldsMonoValuedByContentType.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Services/SearchAndReplaceServices/GetFieldsMultiValuedByContentType.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Services/SearchAndReplaceServices/GetTask.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Services/SearchAndReplaceServices/GridResultSearchAndReplace.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Services/ServiceFunctions.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/UIComponents/Grid.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/UIComponents/HeaderComponent.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/UIComponents/workflow.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/UIPages/BasePage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/UIPages/DashboardPage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/UIPages/LoginPage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/UIPages/ReadContentPage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/UIPages/WriteContentPage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/UtilPackage/DataManager.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/UtilPackage/Log.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/data/_009_AuditTrail/_009_01_AuditTrail/_009_01_othersTestData.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/EndToEndTesting/_008_E2E_ModifyContrat.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/EndToEndTesting/_008_E2E_ModifyContrat.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/ServicesTesting/_009_AuditTrail.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/ServicesTesting/_009_AuditTrail.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/UiTesting/Poc_test.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/UiTesting/Poc_test.class" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/UiTesting/Poc_test.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="624">
+              <caret line="33" column="13" selection-start-line="33" selection-start-column="7" selection-end-line="33" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2616">
+              <caret line="109" column="21" selection-start-line="109" selection-start-column="21" selection-end-line="109" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/UIPages/InstanceOfGenericPage/ContractPage.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="192">
+              <caret line="10" column="47" selection-start-line="10" selection-start-column="47" selection-end-line="10" selection-end-column="47" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="method#fieldTitle_onReadMode#0;class#ContractPage#0" />
+                <element signature="method#fieldTitle_onEditMode#0;class#ContractPage#0" />
+                <element signature="method#fieldGlobalAmount_onReadMode#0;class#ContractPage#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/UiTesting/testUI_demo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="17" column="12" selection-start-line="17" selection-start-column="8" selection-end-line="17" selection-end-column="61" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/EndToEndTesting/_008_E2E_ModifyContrat.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="264">
+              <caret line="23" column="52" selection-start-line="23" selection-start-column="52" selection-end-line="23" selection-end-column="52" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/UIPages/SpecificPage/MyBinPage.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="48">
+              <caret line="2" column="24" selection-start-line="2" selection-start-column="24" selection-end-line="2" selection-end-column="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/ServicesTesting/_005_ModifyUserPreferences.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="48">
+              <caret line="2" selection-start-line="2" selection-end-line="2" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Selenium/SeleniumDriver.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="408">
+              <caret line="34" column="23" selection-start-line="34" selection-start-column="23" selection-end-line="34" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/ServicesTesting/_003_HomeServices.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="96">
+              <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Services/BaseService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="384">
+              <caret line="27" column="10" selection-start-line="27" selection-start-column="10" selection-end-line="27" selection-end-column="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <replaceStrings>
+      <replace />
+    </replaceStrings>
+    <dirStrings>
+      <dir>C:\SquashTF-Server-2.2.0-RELEASE\execution_home\workspace\TNR-MigrationAngularV0\src\test\java\ServicesTesting</dir>
+    </dirStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/main/java/UIComponents/ReadFieldPrimitive.java" />
+        <option value="$PROJECT_DIR$/src/main/java/UIComponents/EditFieldPrimitive.java" />
+        <option value="$PROJECT_DIR$/src/main/java/UIComponents/ReadFieldDate.java" />
+        <option value="$PROJECT_DIR$/src/main/java/UIComponents/ReadFieldBoolean.java" />
+        <option value="$PROJECT_DIR$/src/main/java/UIComponents/ReadFieldFiles.java" />
+        <option value="$PROJECT_DIR$/src/main/java/UIPages/ReadContentPage.java" />
+        <option value="$PROJECT_DIR$/src/main/java/UIPages/ContentPage.java" />
+        <option value="$PROJECT_DIR$/src/main/java/UIPages/BasePage.java" />
+        <option value="$PROJECT_DIR$/src/main/java/UIPages/LoginPage.java" />
+        <option value="$PROJECT_DIR$/src/main/java/UIComponents/ReadFieldReference.java" />
+        <option value="$PROJECT_DIR$/src/main/java/UIComponents/EditFieldPrimitiveByLabel.java" />
+        <option value="$PROJECT_DIR$/src/main/java/UIComponents/ContentButton.java" />
+        <option value="$PROJECT_DIR$/src/main/java/UIComponents/ReadFieldDateByLabel.java" />
+        <option value="$PROJECT_DIR$/src/main/java/UIComponents/ContentReadFieldPrimitiveByLabel.java" />
+        <option value="$PROJECT_DIR$/src/main/java/UIPages/GenericComponents.java" />
+        <option value="$PROJECT_DIR$/src/main/java/UIComponents/WebElementByXpath.java" />
+        <option value="$PROJECT_DIR$/src/main/java/UIComponents/WebElementByLocator.java" />
+        <option value="$PROJECT_DIR$/src/main/java/WebElementByIdRepository.java" />
+        <option value="$PROJECT_DIR$/src/main/java/UIComponents/WebElementByIdRepository.java" />
+        <option value="$PROJECT_DIR$/src/main/java/UIComponents/componentObject.java" />
+        <option value="$PROJECT_DIR$/src/main/java/UIComponents/componentField.java" />
+        <option value="$PROJECT_DIR$/src/main/java/UIComponents/ContentComponents/ReadFieldBooleanByLabel.java" />
+        <option value="$PROJECT_DIR$/src/main/java/UIComponents/ContentComponents/ReadFieldDateByLabel.java" />
+        <option value="$PROJECT_DIR$/src/main/java/UIComponents/ContentComponents/readFieldFilesByLabel.java" />
+        <option value="$PROJECT_DIR$/src/main/java/UIComponents/ContentComponents/ContentWriteFieldPrimitiveByLabel.java" />
+        <option value="$PROJECT_DIR$/src/main/java/UIComponents/ContentComponents/ContentReadFieldPrimitiveByLabel.java" />
+        <option value="$PROJECT_DIR$/src/main/java/UIComponents/ContentComponents/AllContentComponents.java" />
+        <option value="$PROJECT_DIR$/src/main/java/UIComponents/ContentComponents/ReadFieldReferenceByLabel.java" />
+        <option value="$PROJECT_DIR$/src/main/java/UIPages/GenericDashboardPage.java" />
+        <option value="$PROJECT_DIR$/src/main/java/UIPages/GenericContentPage.java" />
+        <option value="$PROJECT_DIR$/src/main/java/UIComponents/HeaderComponent/MyFavoritesMenu.java" />
+        <option value="$PROJECT_DIR$/src/main/java/UIComponents/HeaderComponent/RecentlyAccessedMenu.java" />
+        <option value="$PROJECT_DIR$/src/test/java/ServicesTesting/_009_AuditTrail.java" />
+        <option value="$PROJECT_DIR$/src/main/java/UIComponents/Header.java" />
+        <option value="$PROJECT_DIR$/src/main/java/UIComponents/HeaderComponent/ModuleMenu.java" />
+        <option value="$PROJECT_DIR$/src/main/java/UIComponents/BaseComponent.java" />
+        <option value="$PROJECT_DIR$/src/main/java/UIComponents/HeaderComponent/ModuleMenuByLabel.java" />
+        <option value="$PROJECT_DIR$/src/main/java/UIPages/SpecificPage/MyNoficationsPage.java" />
+        <option value="$PROJECT_DIR$/src/main/java/UIPages/SpecificPage/ListOfGeneralAlertPage.java" />
+        <option value="$PROJECT_DIR$/src/main/java/UIPages/SpecificPage/ListOfGeneralAlertsPage.java" />
+        <option value="$PROJECT_DIR$/src/main/java/UIPages/GenericPage/ContentPage.java" />
+        <option value="$PROJECT_DIR$/src/main/java/UIPages/GenericPage/DashbordPage.java" />
+        <option value="$PROJECT_DIR$/src/main/java/UIPages/ContractPage.java" />
+        <option value="$PROJECT_DIR$/src/main/java/UIPages/SpecificPage/LoginPage.java" />
+        <option value="$PROJECT_DIR$/src/main/java/UIComponents/HeaderComponent/HeaderLinks.java" />
+        <option value="$PROJECT_DIR$/src/main/java/UIComponents/HeaderComponent/SimpleSearchComponent.java" />
+        <option value="$PROJECT_DIR$/src/test/java/UiTesting/testUI_demo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/UIPages/InstanceOfGenericPage/ContractPage.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Services/BaseService.java" />
+        <option value="$PROJECT_DIR$/src/test/java/EndToEndTesting/_008_E2E_ModifyContrat.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="REST_test_Automation" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="REST_test_Automation" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Plugins" type="7aea1407:MavenProjectsStructure$PluginsNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1936" />
+    <option name="height" value="1056" />
+  </component>
+  <component name="ProjectId" id="1ZBLElOxJaaUVU4piAv54hPFTWv" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="REST_test_Automation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TNR-MigrationAngularV0" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="REST_test_Automation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TNR-MigrationAngularV0" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="REST_test_Automation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TNR-MigrationAngularV0" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="REST_test_Automation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TNR-MigrationAngularV0" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="REST_test_Automation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TNR-MigrationAngularV0" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="UIComponents" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="REST_test_Automation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TNR-MigrationAngularV0" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="UIComponents" type="462c0819:PsiDirectoryNode" />
+              <item name="HeaderComponent" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="REST_test_Automation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TNR-MigrationAngularV0" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="UIPages" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="REST_test_Automation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TNR-MigrationAngularV0" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="UIPages" type="462c0819:PsiDirectoryNode" />
+              <item name="GenericPage" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="REST_test_Automation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TNR-MigrationAngularV0" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="UIPages" type="462c0819:PsiDirectoryNode" />
+              <item name="InstanceOfGenericPage" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="REST_test_Automation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TNR-MigrationAngularV0" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="UIPages" type="462c0819:PsiDirectoryNode" />
+              <item name="SpecificPage" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="REST_test_Automation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TNR-MigrationAngularV0" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="UtilPackage" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="REST_test_Automation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TNR-MigrationAngularV0" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="REST_test_Automation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TNR-MigrationAngularV0" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="REST_test_Automation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TNR-MigrationAngularV0" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="EndToEndTesting" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="REST_test_Automation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TNR-MigrationAngularV0" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="ServicesTesting" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="REST_test_Automation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TNR-MigrationAngularV0" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="UiTesting" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="D:/GITLAB SLASH/slash03012020/slash" />
+    <property name="settings.editor.selected.configurable" value="device.file.explorer" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="UIComponents" />
+      <recent name="UiTesting" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="Services" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\SquashTF-Server-2.2.0-RELEASE\execution_home\workspace\TNR-MigrationAngularV0\src\main\resources\data\_009_AuditTrail" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="JUnit._008_E2E_ModifyContrat">
+    <configuration name="_003_HomeServices" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="REST_test_Automation" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ServicesTesting.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ServicesTesting" />
+      <option name="MAIN_CLASS_NAME" value="ServicesTesting._003_HomeServices" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="_008_E2E_ModifyContrat" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="REST_test_Automation" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="EndToEndTesting.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="EndToEndTesting" />
+      <option name="MAIN_CLASS_NAME" value="EndToEndTesting._008_E2E_ModifyContrat" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="testUI_demo" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="REST_test_Automation" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="UiTesting.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="UiTesting" />
+      <option name="MAIN_CLASS_NAME" value="UiTesting.testUI_demo" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="testUI_demo._001_test_Navigation" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="REST_test_Automation" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="UiTesting.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="UiTesting" />
+      <option name="MAIN_CLASS_NAME" value="UiTesting.testUI_demo" />
+      <option name="METHOD_NAME" value="_001_test_Navigation" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="testUI_demo._001_test_Navigation_Business" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="REST_test_Automation" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="UiTesting.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="UiTesting" />
+      <option name="MAIN_CLASS_NAME" value="UiTesting.testUI_demo" />
+      <option name="METHOD_NAME" value="_001_test_Navigation_Business" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit._008_E2E_ModifyContrat" />
+        <item itemvalue="JUnit._003_HomeServices" />
+        <item itemvalue="JUnit.testUI_demo" />
+        <item itemvalue="JUnit.testUI_demo._001_test_Navigation_Business" />
+        <item itemvalue="JUnit.testUI_demo._001_test_Navigation" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="810efa86-20bd-4f71-a3f9-c34450e50ad8" name="Default Changelist" comment="" />
+      <created>1579682220116</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1579682220116</updated>
+    </task>
+    <task id="LOCAL-00001" summary="clean project">
+      <created>1579797564366</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1579797564366</updated>
+    </task>
+    <task id="LOCAL-00002" summary="log work around">
+      <created>1581591032592</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1581591032592</updated>
+    </task>
+    <task id="LOCAL-00003" summary="encapsulation des classes de services">
+      <created>1581959222290</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1581959222291</updated>
+    </task>
+    <task id="LOCAL-00004" summary="API test Audit Trail">
+      <created>1582038107231</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1582038107231</updated>
+    </task>
+    <task id="LOCAL-00005" summary="test Audit Trail refacto&#10;- otherTestData file">
+      <created>1582049700639</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1582049700639</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="_008_E2E_ModifyContrat - 2020.02.26 at 15h 08m 02s.xml">
+      <configuration name="_008_E2E_ModifyContrat" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="_008_E2E_ModifyContrat - 2020.02.26 at 15h 08m 41s.xml">
+      <configuration name="_008_E2E_ModifyContrat" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="_008_E2E_ModifyContrat - 2020.02.26 at 15h 10m 15s.xml">
+      <configuration name="_008_E2E_ModifyContrat" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="_008_E2E_ModifyContrat - 2020.02.26 at 15h 13m 37s.xml">
+      <configuration name="_008_E2E_ModifyContrat" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="_008_E2E_ModifyContrat - 2020.02.26 at 15h 14m 13s.xml">
+      <configuration name="_008_E2E_ModifyContrat" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="_008_E2E_ModifyContrat - 2020.02.26 at 15h 33m 09s.xml">
+      <configuration name="_008_E2E_ModifyContrat" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="_008_E2E_ModifyContrat - 2020.02.26 at 15h 33m 53s.xml">
+      <configuration name="_008_E2E_ModifyContrat" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="_008_E2E_ModifyContrat - 2020.02.26 at 15h 36m 35s.xml">
+      <configuration name="_008_E2E_ModifyContrat" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="_008_E2E_ModifyContrat - 2020.02.26 at 15h 38m 36s.xml">
+      <configuration name="_008_E2E_ModifyContrat" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="_008_E2E_ModifyContrat - 2020.02.26 at 15h 39m 20s.xml">
+      <configuration name="_008_E2E_ModifyContrat" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1296" height="1000" extended-state="6" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21682848" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Capture Tool" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Designer" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.451505" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39910814" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="9" weight="0.3522854" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.32887402" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Codota" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="Theme Preview" order="6" />
+      <window_info active="true" anchor="right" id="Maven" order="7" visible="true" weight="0.26375404" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
+    </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26618123" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Capture Tool" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Designer" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.08204518" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39910814" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="9" weight="0.3522854" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.32887402" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Codota" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="Theme Preview" order="6" />
+      <window_info anchor="right" id="Maven" order="7" weight="0.39967638" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
+    </layout-to-restore>
+  </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ORDER">
+      <list>
+        <option value="0" />
+        <option value="2" />
+        <option value="3" />
+        <option value="1" />
+      </list>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="clean project" />
+    <MESSAGE value="log work around" />
+    <MESSAGE value="encapsulation des classes de services" />
+    <MESSAGE value="API test Audit Trail" />
+    <MESSAGE value="test Audit Trail refacto&#10;- otherTestData file" />
+    <option name="LAST_COMMIT_MESSAGE" value="test Audit Trail refacto&#10;- otherTestData file" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/UIPages/InstanceOfGenericPage/ContractPage.java</url>
+          <line>33</line>
+          <properties />
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/UIPages/InstanceOfGenericPage/ContractPage.java</url>
+          <line>17</line>
+          <properties />
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/UIPages/InstanceOfGenericPage/ContractPage.java</url>
+          <line>16</line>
+          <properties class="UIPages.InstanceOfGenericPage.ContractPage" method="verifyPageIsLoaded">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/java/UIComponents/Header.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/UIComponents/ContentComponents/ContentReadFieldPrimitiveByLabel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="527">
+          <caret line="36" column="5" selection-start-line="36" selection-start-column="5" selection-end-line="36" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/UIComponents/ContentComponents/ContentWriteFieldPrimitiveByLabel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-14">
+          <caret line="11" column="29" lean-forward="true" selection-start-line="11" selection-start-column="29" selection-end-line="11" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#594#595#0" expanded="true" />
+            <element signature="e#643#644#0" expanded="true" />
+            <element signature="e#680#681#0" expanded="true" />
+            <element signature="e#746#747#0" expanded="true" />
+            <element signature="e#792#793#0" expanded="true" />
+            <element signature="e#825#826#0" expanded="true" />
+            <element signature="e#874#875#0" expanded="true" />
+            <element signature="e#914#915#0" expanded="true" />
+            <element signature="e#963#964#0" expanded="true" />
+            <element signature="e#1003#1004#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/UIComponents/BaseComponent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="372">
+          <caret line="44" selection-start-line="44" selection-end-line="44" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#305#306#0" expanded="true" />
+            <element signature="e#355#356#0" expanded="true" />
+            <element signature="e#649#650#0" expanded="true" />
+            <element signature="e#695#696#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/UiTesting/Basetest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="48">
+          <caret line="2" column="23" lean-forward="true" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/UIPages/SpecificPage.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/UIPages/GenericContentPage.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/UIPages/GenericDashboardPage.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/UIPages/SpecificPage/LoginPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/UIPages/SpecificPopup/MyPreferencesPopup.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/UIComponents/SubHeaderComponent.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/UIPages/SpecificPopup/ConfirmPopup.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/UIComponents/HeaderComponent/ProfilMenu.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="3" column="1" selection-start-line="3" selection-start-column="1" selection-end-line="3" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/UIComponents/HeaderComponent/RecentlyAccessedMenu.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/UIComponents/HeaderComponent/TechnicalMenu.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="48">
+          <caret line="2" column="26" selection-start-line="2" selection-start-column="26" selection-end-line="2" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/UIComponents/HeaderComponent/NotificationsMenu.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="48">
+          <caret line="2" column="30" selection-start-line="2" selection-start-column="30" selection-end-line="2" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/UIComponents/SubHeaderComponent/SubHeaderLink.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/UIComponents/SubHeaderComponent/SubHeaderTitle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="48">
+          <caret line="2" column="27" selection-start-line="2" selection-start-column="27" selection-end-line="2" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/UIComponents/SubHeaderComponent/SubHeaderLinks.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="48">
+          <caret line="2" column="27" selection-start-line="2" selection-start-column="27" selection-end-line="2" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/UIComponents/SubHeaderComponent/SubHeaderAction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="48">
+          <caret line="2" column="28" selection-start-line="2" selection-start-column="28" selection-end-line="2" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/UIComponents/SubHeaderComponent/SubHeaderBurgerMenu.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="48">
+          <caret line="2" column="32" selection-start-line="2" selection-start-column="32" selection-end-line="2" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/UIComponents/HeaderComponent/ReportMenu.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="48">
+          <caret line="2" column="25" lean-forward="true" selection-start-line="2" selection-start-column="25" selection-end-line="2" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/UIComponents/HeaderComponent/MyFavoritesMenu.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="48">
+          <caret line="2" column="28" selection-start-line="2" selection-start-column="28" selection-end-line="2" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/UIPages/GenericPage/ContentPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/UIPages/GenericPage/DashbordPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/UIPages/GenericPage/SearchMaskPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="48">
+          <caret line="2" column="27" selection-start-line="2" selection-start-column="27" selection-end-line="2" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/UIPages/GenericPage/ReportPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="48">
+          <caret line="2" column="23" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/UIPages/SpecificPage/ListOfGeneralAlertsPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="48">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/UIPages/SpecificPage/AbsenceManagementPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="48">
+          <caret line="2" column="34" selection-start-line="2" selection-start-column="34" selection-end-line="2" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/UIPages/SpecificPage/ListOfReportsList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="48">
+          <caret line="2" column="30" selection-start-line="2" selection-start-column="30" selection-end-line="2" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/UIPages/SpecificPage/MyNoficationsPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="48">
+          <caret line="2" column="30" selection-start-line="2" selection-start-column="30" selection-end-line="2" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/UIPages/SpecificPage/ResultForSimpleSearchPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="48">
+          <caret line="2" column="38" selection-start-line="2" selection-start-column="38" selection-end-line="2" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/UIPages/BasePage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="48">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/UtilPackage/DataManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/UIComponents/HeaderComponent/ModuleMenuByLabel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="16" column="38" selection-start-line="16" selection-start-column="4" selection-end-line="16" selection-end-column="43" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/UIComponents/HeaderComponent/SimpleSearchComponent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="13" column="140" selection-start-line="13" selection-start-column="140" selection-end-line="13" selection-end-column="140" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/UtilPackage/Log.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="4" column="18" selection-start-line="4" selection-start-column="18" selection-end-line="4" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/UIComponents/HeaderComponent/HeaderLinks.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/UIPages/SpecificPage/SearchAndReplacePage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="48">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/UIPages/SpecificPage/MySubscriptionsPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="48">
+          <caret line="2" column="32" selection-start-line="2" selection-start-column="32" selection-end-line="2" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/ServicesTesting/_009_AuditTrail.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/UiTesting/Poc_test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="624">
+          <caret line="33" column="13" selection-start-line="33" selection-start-column="7" selection-end-line="33" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/UIPages/InstanceOfGenericPage/ContractPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="10" column="47" selection-start-line="10" selection-start-column="47" selection-end-line="10" selection-end-column="47" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#fieldTitle_onReadMode#0;class#ContractPage#0" />
+            <element signature="method#fieldTitle_onEditMode#0;class#ContractPage#0" />
+            <element signature="method#fieldGlobalAmount_onReadMode#0;class#ContractPage#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/UiTesting/testUI_demo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="17" column="12" selection-start-line="17" selection-start-column="8" selection-end-line="17" selection-end-column="61" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/EndToEndTesting/_008_E2E_ModifyContrat.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="23" column="52" selection-start-line="23" selection-start-column="52" selection-end-line="23" selection-end-column="52" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/UIPages/SpecificPage/MyBinPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="48">
+          <caret line="2" column="24" selection-start-line="2" selection-start-column="24" selection-end-line="2" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/ServicesTesting/_005_ModifyUserPreferences.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="48">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Selenium/SeleniumDriver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="34" column="23" selection-start-line="34" selection-start-column="23" selection-end-line="34" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/ServicesTesting/_003_HomeServices.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Services/BaseService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="384">
+          <caret line="27" column="10" selection-start-line="27" selection-start-column="10" selection-end-line="27" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2616">
+          <caret line="109" column="21" selection-start-line="109" selection-start-column="21" selection-end-line="109" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
